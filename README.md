@@ -4,17 +4,16 @@ Eine moderne, schlanke und datenschutzkonforme Web-Applikation zur Erzeugung kry
 
 ---
 
-## 📋 Projektdaten
+## Projektdaten
 
-- **Modul:** M431 (Informatiker/in EFZ)
+- **Modul:** M431
 - **Gruppe:** Gruppe 2
 - **Team:** Gian, Lion, Ilian
 - **Datum der Fertigstellung:** 15. Juni 2026
-- **Status:** 🚀 Erfolgreich abgeschlossen (Sämtliche Abnahmekriterien restlos erfüllt)
 
 ---
 
-## ✨ Features
+## Features
 
 - **Kryptografisch sichere Zufallswerte:** Nutzung der `window.crypto.getRandomValues`-API anstelle von `Math.random()`.
 - **Echtzeit-Stärkenanalyse:** Dynamische Berechnung der Passwort-Entropie (in Bits) parallel zur Eingabe.
@@ -25,7 +24,7 @@ Eine moderne, schlanke und datenschutzkonforme Web-Applikation zur Erzeugung kry
 
 ---
 
-## 🛠️ Technologie-Stack
+## Technologie-Stack
 
 - **Frontend:** Semantisches HTML5 & Modernes, responsives CSS3 (mit CSS-Variablen)
 - **Logik & Algorithmen:** Pure JavaScript (Vanilla JS, ES6)
@@ -33,7 +32,7 @@ Eine moderne, schlanke und datenschutzkonforme Web-Applikation zur Erzeugung kry
 
 ---
 
-## 📁 Projektstruktur
+## Projektstruktur
 
 ```text
 ├── index.html        # Semantische Struktur der Web-Applikation
