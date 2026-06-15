@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Passwort-Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Passwort-Generator</h1>
+
+    <section class="controls">
+      <label>Länge: <span id="lengthValue">16</span></label>
+      <input id="length" type="range" min="8" max="64" value="16">
+
+      <label><input id="lower" type="checkbox" checked> Kleinbuchstaben</label>
+      <label><input id="upper" type="checkbox" checked> Grossbuchstaben</label>
+      <label><input id="numbers" type="checkbox" checked> Zahlen</label>
+      <label><input id="symbols" type="checkbox"> Sonderzeichen</label>
+
+      <div class="actions">
+        <button id="generate">Generieren</button>
+        <button id="copy">Kopieren</button>
+      </div>
+    </section>
+
+    <section class="output">
+      <input id="password" readonly placeholder="Ihr Passwort erscheint hier">
+      <div id="strength" class="strength">—</div>
+    </section>
+  </main>
+
+  <script src="lib.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
