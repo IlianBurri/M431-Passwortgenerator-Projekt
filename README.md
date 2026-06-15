@@ -38,4 +38,4 @@ Eine moderne, schlanke und datenschutzkonforme Web-Applikation zur Erzeugung kry
 ├── lib.js            # Passwort-Utility-Bibliothek (Kern-Algorithmus & Entropie)
 ├── script.js         # UI-Controller und Event-Handling (DOM-Interaktion)
 └── README.md         # Projektdokumentation (diese Datei)
-.
+. 
