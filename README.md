@@ -9,7 +9,6 @@ Eine moderne, schlanke und datenschutzkonforme Web-Applikation zur Erzeugung kry
 - **Modul:** M431
 - **Gruppe:** Gruppe 2
 - **Team:** Gian, Lion, Ilian
-- **Datum der Fertigstellung:** 15. Juni 2026
 
 ---
 
