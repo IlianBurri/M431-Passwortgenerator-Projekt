@@ -1,12 +1,43 @@
-# Passwort-Generator
+# M431 – Projekt Kontrolle und Auswertung: Passwort-Generator Web-Applikation
 
-Eine kleine, clientseitige Web-Applikation zum Erzeugen sicherer Passwörter.
+Eine moderne, schlanke und datenschutzkonforme Web-Applikation zur Erzeugung kryptografisch sicherer Passwörter. Das Projekt wurde im Rahmen des Moduls **M431** entwickelt und kombiniert eine intuitive Benutzeroberfläche mit mathematisch fundierter Entropie-Berechnung in Echtzeit.
 
-Dateien:
-- index.html — Hauptseite
-- styles.css — Styling
-- script.js — Passwortlogik
+---
 
-Öffnen: Im Browser `index.html` öffnen (keinen Server nötig).
+## 📋 Projektdaten
 
-Hinweis: Die Hauptlogik befindet sich in `lib.js`. Die UI nutzt `script.js`.
+- **Modul:** M431 (Informatiker/in EFZ)
+- **Gruppe:** Gruppe 2
+- **Team:** Gian, Lion, Ilian
+- **Datum der Fertigstellung:** 15. Juni 2026
+- **Status:** 🚀 Erfolgreich abgeschlossen (Sämtliche Abnahmekriterien restlos erfüllt)
+
+---
+
+## ✨ Features
+
+- **Kryptografisch sichere Zufallswerte:** Nutzung der `window.crypto.getRandomValues`-API anstelle von `Math.random()`.
+- **Echtzeit-Stärkenanalyse:** Dynamische Berechnung der Passwort-Entropie (in Bits) parallel zur Eingabe.
+- **Visuelles Feedback:** Sofortige farbliche Signalisierung der Passwortstärke von „Sehr schwach“ bis „Sehr stark“.
+- **Flexible Konfiguration:** Individuelle Anpassung der Länge (8–64 Zeichen) sowie exakte Zeichensatzfilterung (Gross-/Kleinbuchstaben, Zahlen, Sonderzeichen).
+- **Responsive Design:** Optimierte CSS-Flexbox-Struktur für nahtlose Bedienung auf Desktop- und Mobilgeräten.
+- **Cross-Browser-Kompatibel:** Getestet und optimiert für Google Chrome, Mozilla Firefox, Microsoft Edge und Apple Safari.
+
+---
+
+## 🛠️ Technologie-Stack
+
+- **Frontend:** Semantisches HTML5 & Modernes, responsives CSS3 (mit CSS-Variablen)
+- **Logik & Algorithmen:** Pure JavaScript (Vanilla JS, ES6)
+- **Sicherheit:** Web Crypto API für echte Zufallswerte
+
+---
+
+## 📁 Projektstruktur
+
+```text
+├── index.html        # Semantische Struktur der Web-Applikation
+├── styles.css        # Zentrales Design-System und responsive Layouts
+├── lib.js            # Passwort-Utility-Bibliothek (Kern-Algorithmus & Entropie)
+├── script.js         # UI-Controller und Event-Handling (DOM-Interaktion)
+└── README.md         # Projektdokumentation (diese Datei)
