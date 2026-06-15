@@ -25,9 +25,8 @@ Eine moderne, schlanke und datenschutzkonforme Web-Applikation zur Erzeugung kry
 
 ## Technologie-Stack
 
-- **Frontend:** Semantisches HTML5 & Modernes, responsives CSS3 (mit CSS-Variablen)
-- **Logik & Algorithmen:** Pure JavaScript (Vanilla JS, ES6)
-- **Sicherheit:** Web Crypto API für echte Zufallswerte
+- **Frontend:** Semantisches HTML & Modernes, responsives CSS
+- **Logik & Algorithmen:** Pure JavaScript
 
 ---
 
